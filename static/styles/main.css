@@ -1,0 +1,102 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    background-color: black;
+    margin: auto;
+    width: 930px;
+    padding: 0px;
+    line-height: 1em;
+    padding-top: 15px;
+}
+
+#ising {
+    float: left;
+    color: red;
+    width: 512px;
+    height: 512px;
+    position: 'absolute';
+    left: 10px;
+    top: 10px;
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+
+#isinggraph {
+  color: black;
+  background-color: white;
+}
+
+.withspace {
+  padding: 5px;
+}
+
+.code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+
+pre.code {
+    margin: 0px;
+}
+
+#ising {
+    color: red;
+    width: 512px;
+    height: 512px;
+    position: 'relative';
+    left: 10px;
+    top: 10px;
+    border: 1px solid black;
+}
+
+#panelcontainer {
+    font-family:"Times New Roman", Times, serif;
+    float: left;
+    left: 220px;
+    top: 10px;
+    width: 400px;
+    height: 512px;
+    border: solid 1px black;
+    padding-bottom: 15px;
+}
+
+#panel {
+    padding: 15px;
+}
+
+#slider {
+    width: 100px;
+}
+
+#helptext {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.help_label  {
+    position: relative;
+    padding-right: 6px;
+    width: 7em;
+    float: left;
+    text-align: right;
+}
+
+.eb_label  {
+    position: relative;
+    padding-right: 6px;
+    width: 7em;
+    float: left;
+    text-align: right;
+}
+
+.eb_span  {
+    position: relative;
+    top: -6px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+}
+
+#instructions {
+  padding-top: 10px;
+  text-align: justify;
+}

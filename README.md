@@ -1,19 +1,31 @@
 ## About
-Modified copy of browser-based Ising Model in Javascript from: https://github.com/mattbierbaum/ising.js
+A modified and dockerized[^fn1] copy of a browser-based Ising Model in Javascript
+originally created by user `mattbierbaum`.[^fn2]
 
 ## Usage
+Below are simple examples of using `Docker`[^fn1] to run a container from the
+`tigerj/ising` image. The resulting container (named `ising`) in this example
+can be found running at: http://localhost:8080
+
+### Running
 ```
-# Running
 $ docker run -d --rm --name ising -p 8080:80 tigerj/ising
+```
 
-# Stopping
+### Stopping
+```
 $ docker stop ising
-
-# Starting
+```
+### Starting
+```
 $ docker start ising
+```
 
-# Removing
+### Removing
+```
 $ docker rm ising
 ```
 
-Navigate to: http://localhost:8080
+## References
+[^fn1]: [Docker](https://docs.docker.com/get-started/)
+[^fn2]: [Ising model 2D javascript simulation](https://github.com/mattbierbaum/ising.js)

@@ -3,7 +3,17 @@ Modified copy of browser-based Ising Model in Javascript from: https://github.co
 
 ## Usage
 ```
-$ docker run -d --rm -p 8080:80 tigerj/ising
+# Running
+$ docker run -d --rm --name ising -p 8080:80 tigerj/ising
+
+# Stopping
+$ docker stop ising
+
+# Starting
+$ docker start ising
+
+# Removing
+$ docker rm ising
 ```
 
 Navigate to: http://localhost:8080
